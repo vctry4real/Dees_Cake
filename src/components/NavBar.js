@@ -37,6 +37,9 @@ const NavBar = () =>{
                         <Link href="/about">About us</Link>
                     </li>
                     <li>
+                        <Link href="/services">Our Services</Link>
+                    </li>
+                    <li>
                         <Link href="/blog">Blog</Link>
                     </li>
                     <li>
@@ -61,6 +64,11 @@ const NavBar = () =>{
                 <li className="border-b-2 border-zinc-300 w-full">
                     <Link href="/about" onClick={handleNavClose} smooth={true} duration={-200}>
                         About us
+                    </Link>
+                </li>
+                <li className="border-b-2 border-zinc-300 w-full">
+                    <Link href="/services" onClick={handleNavClose} smooth={true} duration={-200}>
+                        Our Services
                     </Link>
                 </li>
                 <li className="border-b-2 border-zinc-300 w-full">

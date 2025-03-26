@@ -1,0 +1,34 @@
+<h1>Our Services - Creating Sweet Magic for Every Occasion</h1>
+
+<section class="custom-cakes">
+<h2>Custom Cake Design</h2>
+<p>From concept to creation, we bring your vision to life. Our custom cake service includes:</p>
+- Personal consultation
+- Design sketching
+- Flavor customization
+- Dietary accommodation (gluten-free, vegan options available)
+- Professional delivery
+
+[Pricing table with structured data]
+
+<h2>Wedding Services</h2>
+- Custom wedding cakes
+- Dessert tables
+- Wedding favor boxes
+- Free consultation and tasting
+- Setup and styling
+- Emergency backup cake service
+
+<h2>Corporate Services</h2>
+- Branded desserts
+- Corporate event catering
+- Client gift boxes
+- Team celebration cakes
+- Bulk orders
+- Regular delivery service
+
+<h2>Celebration Packages</h2>
+[Detailed package descriptions with pricing]
+
+CTA: <button>"Book Your Consultation"</button>
+</section>
