@@ -84,7 +84,7 @@ export default function Home() {
                     alt="Chef Image"
                     fill
                     className="object-cover rounded-lg shadow-sm"
-                    // sizes="(max-width: 768px) 100vw, 50vw"
+                    sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
                     style={{ objectPosition: 'center top' }}
                     priority
                   />

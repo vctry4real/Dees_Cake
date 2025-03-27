@@ -9,7 +9,7 @@ const HoverDevCards = () => {
   return (
     <div className="p-4">
       
-      <div className="grid gap-4 grid-cols-2 lg:grid-cols-4">
+      <div className="grid gap-4 grid-cols-1 md:grid-cols-4">
         <Card
           title="Artisanal Craftsmanship"
           subtitle="Each cake is handcrafted with meticulous attention to detail"

@@ -64,6 +64,7 @@ const HeaderBlock = () => (
       width={200}
       height={200}
       className="mb-4 size-14 rounded-full"
+      sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
     />
     <h1 className="mb-12 text-4xl font-medium leading-tight">
       State of the art kitchen.{" "}
@@ -82,13 +83,14 @@ const SocialsBlock = () => (
         rotate: "2.5deg",
         scale: 1.1,
       }}
-      className="col-span-6 bg-red-500 md:col-span-3 relative"
+      className="h-[100px] md:h-auto col-span-6 bg-red-500 md:col-span-3 relative"
     >
         <Image
             src="/kitchen.jpg"
             alt="avatar"
             fill
             className="object-cover mb-4 size-14 "
+            sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
         />
     </Block>
     <Block
@@ -96,13 +98,14 @@ const SocialsBlock = () => (
         rotate: "-2.5deg",
         scale: 1.1,
       }}
-      className="col-span-6 bg-green-600 md:col-span-3 relative"
+      className="h-[100px] md:h-auto col-span-6 bg-green-600 md:col-span-3 relative"
     >
         <Image
             src="/kitchen4.jpg"
             alt="dee's cake kitchen image"
             fill
             className="object-cover mb-4 size-14 "
+            sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
         />
     </Block>
     <Block
@@ -110,13 +113,14 @@ const SocialsBlock = () => (
         rotate: "-2.5deg",
         scale: 1.1,
       }}
-      className="col-span-6 bg-zinc-50 md:col-span-3 relative"
+      className="h-[100px] md:h-auto col-span-6 bg-zinc-50 md:col-span-3 relative"
     >
       <Image
             src="/kitchen2.jpg"
             alt="dee's cake kitchen image"
             fill
             className="object-cover mb-4 size-14 "
+            sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
         />
     </Block>
     <Block
@@ -124,13 +128,14 @@ const SocialsBlock = () => (
         rotate: "2.5deg",
         scale: 1.1,
       }}
-      className="col-span-6 bg-blue-500 md:col-span-3 relative"
+      className="h-[100px] md:h-auto col-span-6 bg-blue-500 md:col-span-3 relative"
     >
       <Image
             src="/kitchen3.jpg"
             alt="dee's cake kitchen image"
             fill
             className="object-cover mb-4 size-14 "
+            sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
         />
     </Block>
   </>
@@ -143,6 +148,7 @@ const AboutBlock = () => (
             alt="dee's cake kitchen image"
             fill
             className="object-cover mb-4 size-14 "
+            sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
         />
   </Block>
 );

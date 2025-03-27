@@ -48,7 +48,7 @@ const SpeedCounter = ({ endValue = 50, duration = 1500 }) => {
   }, [endValue, duration]);
   
   return (
-    <div className="text-4xl text-accentText text-pink-600 font-bold md:text-3xl">
+    <div className="text-lg text-accentText text-pink-600 font-bold md:text-3xl">
       {count}+
     </div>
   );

@@ -9,7 +9,7 @@ export default function About() {
         <main className="w-full h-full flex flex-col bg-gradient-to-br from-purple-50 to-pink-50">
             {/* Hero Section with Stats */}
             <section className="w-full py-20">
-                <div className="max-w-6xl grid md:grid-cols-2 md:justify-between mx-auto md:gap-x-14">
+                <div className="max-w-6xl px-4 grid grid-cols-1 md:grid-cols-2 md:justify-between mx-auto md:gap-x-14 gap-y-14">
                     <div className="flex flex-col gap-y-10">
                         <div className="flex flex-col gap-y-6">
                             <div>
@@ -56,6 +56,8 @@ export default function About() {
                             alt="Dee's cake founder image"
                             fill
                             className="object-cover rounded-lg shadow-sm hover:shadow-md transition-shadow"
+                            sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+                            style = {{objectPosition : "center left"}}
                         />
                     </div>
                 </div>
