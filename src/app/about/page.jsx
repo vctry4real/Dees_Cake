@@ -6,7 +6,7 @@ import AboutCTA from "@/components/CTA";
 
 export default function About() {
     return (
-        <main className="w-full h-full flex flex-col bg-gradient-to-br from-purple-50 to-pink-50">
+        <main className="w-full h-full flex flex-col bg-gradient-to-br from-purple-50 to-pink-50 pt-28 md:pt-32">
             {/* Hero Section with Stats */}
             <section className="w-full py-20">
                 <div className="max-w-6xl px-4 grid grid-cols-1 md:grid-cols-2 md:justify-between mx-auto md:gap-x-14 gap-y-14">

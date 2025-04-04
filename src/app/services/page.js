@@ -103,7 +103,7 @@ const Services = () => {
   );
 
   return (
-    <div className="bg-neutral-50 min-h-screen">
+    <div className="bg-neutral-50 min-h-screen pt-28 md:pt-20">
       {/* Hero Section with Parallax */}
       <div className="relative w-full h-[50vh] sm:h-[60vh] md:h-[70vh] lg:h-[80vh] overflow-hidden">
         <motion.div

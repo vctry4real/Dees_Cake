@@ -1,4 +1,5 @@
 import React from "react";
+import Link from "next/link"
 import { motion } from "framer-motion";
 
 const ComingSoon = () => {
@@ -52,7 +53,7 @@ const PageContent = () => {
                 Our Cakes
             </button>
             <button className="w-fit bg-neutral-200 px-4 py-2 font-semibold text-neutral-700 transition-colors hover:bg-neutral-50">
-                Our Services
+                <Link  href="/services">Our Services</Link>
             </button>
         </div>
     </div>

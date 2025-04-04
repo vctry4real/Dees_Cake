@@ -102,6 +102,12 @@ const Footer = () => {
                         <Link href="#"><FaInstagramSquare className="text-xl md:text-2xl text-primary-second"/></Link>
                     </div>
                 </div>
+                {/* Elegant Footer - Responsive padding */}
+                <div className="w-full py-4 sm:py-5 md:py-6 px-4 sm:px-6 text-center">
+                    <p className="text-xs text-gray-500 tracking-wider">
+                        <span className="text-pink-600">© {new Date().getFullYear()}</span> Dee&apos;s Cakes • All Rights Reserved
+                    </p>
+                </div>
             </div>
         </div>
     )

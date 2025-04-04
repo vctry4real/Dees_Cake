@@ -8,10 +8,11 @@ import { ServiceCards } from "@/components/ServiceCards";
 import Packages from "@/components/Packages";
 import TestimonialSection from "@/components/Testimonial";
 import Accordion from "@/components/Acordion";
+import Link from "next/link"
 
 export default function Home() {
   return (
-    <main className="w-full h-full flex flex-col bg-gradient-to-br from-purple-50 to-pink-50">
+    <main className="w-full h-full flex flex-col bg-gradient-to-br from-purple-50 to-pink-50 pt-28 md:pt-32">
       <div>
         <div>
           <Hero />
@@ -35,7 +36,7 @@ export default function Home() {
             </div>
 
             {/* Divider - only visible on sm screens and up */}
-            <div className="hidden sm:block w-px h-20 border-b-2 border-blue-700 "></div>
+            <div className="hidden sm:block w-px h-20 bg-pink-100"></div>
 
             <div className="flex flex-col gap-y-3 items-center">
               <div className="p-3 bg-pink-100 rounded-lg">
@@ -120,7 +121,7 @@ export default function Home() {
                     </p>
                   </blockquote>
                   <button className="bg-pink-600 hover:bg-pink-700 text-white font-medium py-2 px-4 mt-6 md:mt-8 lg:mt-10 rounded-lg transition-colors active:scale-95 w-full sm:w-auto">
-                    Learn More
+                    <Link href="/about">Learn More</Link>
                   </button>
                 </div>
               </div>
